@@ -31,7 +31,7 @@ namespace _10._17_Exec_DateTime_Q5
 
 			for (int i = 0; i < daysOfYears; i++)
 			{
-				DateTime testDate1 = firstDay.AddDays( );
+				DateTime testDate1 = firstDay.AddDays(i);
 
 				if ( testDate1.DayOfWeek == DayOfWeek.Sunday)
 				{
